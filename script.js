@@ -25,5 +25,8 @@ function getval(sel) {
 
 $( "#addval" ).click(function(){
 	$( "#clone" ).clone(true).appendTo( "#formulaire" );
+	var button = $( "#add" );
+	$( "#add" ).remove();
+	button.appendTo( "#formulaire" );
 });
 	

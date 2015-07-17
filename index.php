@@ -24,11 +24,6 @@
 				</select>
 			</div>
 		</div>
-		<div class="col-md-4 col-md-offset-3" id="add">
-			<div class="form-group">
-				<button type="submit" class="btn btn-default">Envoyer</button>
-			</div>
-		</div>
 		<div class="col-md-4 col-md-offset-3" id="clone">
 			<div class="form-group">
 				<label class="col-xs-3 control-label">coefficient</label>
@@ -39,11 +34,16 @@
 				<input type="number" name="note[]" class="col-xs-5" min="0" max="20" id="note" placeholder="note" required>
 			</div>
 		</div>
+		<div class="col-md-4 col-md-offset-3" id="add">
+			<div class="form-group">
+				<button type="submit" class="btn btn-success">Envoyer</button>
+			</div>
+		</div>
 	</form>
 
-	<div class="col-md-4 col-md-offset-3">
-			<button class="btn btn-default" id="addval">ajouter note</button>
-		</div>
+			<button class="btn btn-primary " id="addval">ajouter note</button>
+	
+		<a href="moyenne.php" class="btn btn-info" role="button">Moyenne</a>
      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
      <script type="text/javascript" src="script.js"></script>
   </body>

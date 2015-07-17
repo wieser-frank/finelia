@@ -19,6 +19,7 @@
 			<?php require("./calc_moyenne.php") ?>
 		</tbody>
 	</table>
+	<a href="index.php" class="btn btn-info col-md-2 col-md-offset-3" role="button">Ajout de note</a>
   </body>
 
 </html>
